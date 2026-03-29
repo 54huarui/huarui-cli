@@ -9,6 +9,8 @@ from pathlib import Path
 from typing import Dict, List, Optional
 
 from openai import OpenAI
+from dotenv import load_dotenv
+load_dotenv()
 
 MAX_STEPS = 8
 
