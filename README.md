@@ -89,15 +89,14 @@ python app.py "列出最近 20 行 nginx error log" --workspace /var/log
 
 ## 重要提醒
 
-这是“真执行 shell”，所以默认风险很高。最少建议：
+这是真执行 shell，所以默认风险很高。最少建议：
 - 用普通用户运行，不要直接 root 常驻
 - 配合容器、chroot、受限 sudo、AppArmor 或 systemd sandbox
 - 生产环境务必加 allowlist / denylist
 - 当前这个最小版没有做高强度安全隔离，它的目标只是“先跑起来”
 
-## 推荐下一步
+## TODO
 
-如果你要把它长期挂在 VPS 上，我建议下一版立刻补这 4 个点：
 1. 命令白名单 / 黑名单
 2. 每个 skill 自己的工具权限
 3. shell 执行审计日志
