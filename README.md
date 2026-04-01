@@ -1,4 +1,4 @@
-# mini-shell-skills-cli
+# huarui-cli
 
 一个最小可运行的 Python CLI：
 - 兼容 OpenAI SDK 的 `base_url`
