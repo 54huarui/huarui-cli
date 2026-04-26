@@ -1,0 +1,4 @@
+{
+  "name": "github_trending",
+  "description": "Fetch and summarize current trending repositories on GitHub, including language filters, time ranges, repository links, descriptions, stars, and forks."
+}
