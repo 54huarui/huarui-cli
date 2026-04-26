@@ -91,13 +91,11 @@ python app.py "列出最近 20 行 nginx error log" --workspace /var/log
 
 这是真执行 shell，所以默认风险很高。最少建议：
 - 用普通用户运行，不要直接 root 常驻
-- 配合容器、chroot、受限 sudo、AppArmor 或 systemd sandbox
-- 生产环境务必加 allowlist / denylist
-- 当前这个最小版没有做高强度安全隔离，它的目标只是“先跑起来”
 
-## TODO
 
-1. 命令白名单 / 黑名单
-2. 每个 skill 自己的工具权限
-3. shell 执行审计日志
-4. workspace 隔离与超时/资源限制
+## 更新日志
+
+### V1.1
+- 新增流式传输
+- 重构部分skills调用代码
+- 颜色字体区分
