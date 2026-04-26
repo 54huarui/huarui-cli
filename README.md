@@ -26,8 +26,9 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env
-然后编辑你的.env文件
 ```
+- 然后编辑你的.env文件
+
 
 你也可以直接导出环境变量：
 
