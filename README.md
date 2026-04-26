@@ -101,3 +101,4 @@ python app.py "列出最近 20 行 nginx error log" --workspace /var/log
 - 新增流式传输
 - 重构部分skills调用代码
 - 颜色字体区分
+- 支持markdown显示
